@@ -20,6 +20,6 @@ function incrementVariable() {
 function doWhileLoop(arr){
   do{
     arr.pop()
-  } while(array.length > 0 && incrementVariable())
+  } while(array.length > 0 && incrementVariable());
   return arr
 }
