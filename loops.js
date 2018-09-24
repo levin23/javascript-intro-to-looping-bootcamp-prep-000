@@ -14,6 +14,6 @@ function whileLoop(num){
 function doWhileLoop(arr){
   do{
     arr.pop()
-  } while(num>=0) console.log(num--)
+  } while(array.length > 0 && incrementVariable())
   console.log('done')
 }
