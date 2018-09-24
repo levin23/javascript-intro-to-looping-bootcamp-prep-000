@@ -17,7 +17,7 @@ function incrementVariable() {
   i = i + 1;
 }
 
-function doWhileLoop(arr){
+function doWhileLoop(array){
   do{
     arr.pop()
   } while(array.length > 0 && incrementVariable());
