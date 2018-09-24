@@ -8,7 +8,7 @@ function forLoop(arr){
 
 function whileLoop(num){
   while(num>=0) console.log(num--)
-  console.log('done')
+  return 'done'
 }
 
 var i = 0
@@ -21,5 +21,5 @@ function doWhileLoop(arr){
   do{
     arr.pop()
   } while(array.length > 0 && incrementVariable())
-  console.log('done')
+  return arr
 }
