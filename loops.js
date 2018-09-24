@@ -11,6 +11,12 @@ function whileLoop(num){
   console.log('done')
 }
 
+var i = 0
+
+function incrementVariable() {
+  i = i + 1;
+}
+
 function doWhileLoop(arr){
   do{
     arr.pop()
